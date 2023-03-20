@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient( rgb(85, 95, 128), rgb(14, 13, 13), rgba(0, 0, 0, 0.855),rgba(0, 0, 0, 0.927));      
+}
+nav{
+    font-family: 'Hanken Grotesk', sans-serif;
+    position: sticky;
+    top: 0%;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    color: white;
+}
+nav ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav ul a li{
+    padding: 0 12px;
+}
+.logo img{
+    width: 40px;
+    padding: 0 4px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.16rem;
+}
+
+.container{
+    padding-top: 40px;
+    color: white;
+    padding-bottom: 10px;
+    margin: 0px 70px;
+    padding-bottom: 20px;
+}
+.recentpl{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 100px;
+    grid-gap: 20px;
+   margin: 0px 70px;
+}
+.recentpl a{
+    color: white;
+    text-decoration: none;
+}
+.rpla{
+    background-color: rgba(0, 0, 0, 0.639);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.rpla:hover{
+    cursor: pointer;
+        
+}
+.rpla h4{
+    padding-left: 30px;
+    font-weight: 900px;
+    font-size: bolder;
+}
+.rpla img{
+    height: 100px;
+    width: 100px;
+}
+#rplaid{
+    padding-bottom: 20px;
+}
+
+.songlist{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto  ;
+    grid-gap: 28px;
+    height: 280px;
+    margin: 0px 70px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+/* .songlist a{
+    color: white;
+    text-decoration: none;
+} */
+.playlist{
+    background-color: rgba(0, 0, 0, 0.632);
+   
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: aliceblue;
+}
+.playlist:hover{
+    background-color: rgba(6, 6, 6, 0.467);
+}
+.playlist img{
+    padding: 15px 5px 10px 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.394);
+}
+.playlist h3{
+    padding-bottom: 10px;
+    font-weight: 800;
+}
+.playlist span{
+    font-weight: 150;
+    color: rgba(240, 255, 255, 0.835);
+}
+.playlist span:hover{
+    text-decoration: underline;
+}
+.discription{
+    margin: 0px 70px;
+    color: white;
+}
+.bottom{
+    position: sticky;
+    top: 86vh;
+    background-color: rgba(0, 0, 0, 0.946);
+    height: 110px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.1px solid white;
+}
+.icon{
+    margin-bottom: 10px;
+}
+.icon i{
+    margin-left: 12px;
+    cursor: pointer;
+}
+#myprogressbar{
+    width: 50vw;
+    cursor: pointer;
+    height: 5px;
+}
+
+.body::-webkit-scrollbar{
+    display: none;
+}
+
+.songs{
+     margin: 0px 70px;
+     color: aliceblue;
+     scroll-behavior: smooth;
+     display: none;
+}
+.songs::-webkit-scrollbar{
+    display: none;
+}
+.list{
+    margin-top: 5px;
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight:lighter;
+    margin-bottom: 30px;
+}
+.list a{
+    text-decoration: none;
+    /* margin-top: 20px; */
+    color: white;
+}
+.songitem{
+    display: flex;
+    align-items: center;
+    margin: 0px 70px;
+     color: aliceblue;
+     padding: 10px;
+     border-radius: 7px;
+     height: 65px;
+     overflow: hidden;
+}
+.songitem img{
+    height: 63px;
+    width: 70px;
+    overflow: hidden;
+}
+.songitem div{
+    padding: 15px;  
+}
+.songitem span{
+    padding: 0 150px;
+    font-size: larger;
+}
+.songitem i:hover{
+    cursor: pointer;
+}
+.songitem:hover{
+    background-color: rgba(0, 0, 0, 0.916);
+}
+
+/* .songs{
+    display: none;
+} */
+#spread{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
